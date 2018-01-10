@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  /* font-family: arial, sans-serif; */
+  background-color: white;
+
+}
+
+body > header,
+body > footer  {
+  background-color: yellow;
+}
+
+body > section
+{
+  flex:1;
+}
+/*
+header
+{
+  background-color: red;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+nav a
+{
+  color: rgba(0,0,0,0.85);
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover
+{
+  color: rgba(0,0,0,0.75);
+  text-decoration: underline;
+}
+
+nav input
+{
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 95px;
+  border-radius: 4px;
+  box-shadow: 0px;
+  border: 0px;
+  margin: 15px;
+}
+
+
+section
+{
+  background-color: blue;
+  height: 400px;
+}
+
+footer
+{
+  background-color: green;
+  height: 100px;
+}
+*/

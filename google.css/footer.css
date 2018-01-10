@@ -1,0 +1,12 @@
+footer > div:first-child
+{
+
+  background-color: green;
+  /* height: 100px; */
+}
+
+footer >div:last-child
+{
+	background-color: red;
+	
+}

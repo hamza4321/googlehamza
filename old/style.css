@@ -1,0 +1,95 @@
+body
+{
+  font-family: arial, sans-serif;
+}
+
+header
+{
+  text-align: right;
+  margin-right: 13px;
+  margin-top: 1%;
+  font-size: 0.8em;
+}
+
+
+nav a
+{
+  color: rgba(0,0,0,0.85);
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav a:hover
+{
+  color: rgba(0,0,0,0.75);
+  text-decoration: underline;
+}
+
+nav input
+{
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 95px;
+  border-radius: 4px;
+  box-shadow: 0px;
+  border: 0px;
+}
+
+section
+{
+height:90%;
+display: flex;
+flex-direction: column;
+}
+
+img
+{
+  margin:auto;
+}
+
+form
+{
+  margin: auto;
+
+}
+
+input.rech
+{
+  background-color: rgba(200, 200, 200, 0.3);
+  height: 35px;
+  width: 150px;
+  border: 0px;
+  color: rgba(120, 120, 120, 1);
+  font-weight: bold;
+
+}
+
+input.rech:hover
+{
+  background-color: rgba(200, 200, 200, 0.3);
+  height: 35px;
+  width: 150px;
+  border: 1px rgba(120, 120, 120, 1) solid;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+
+}
+
+input.search
+{
+height: 40px;
+width: 600px;
+border-radius: 3px;
+border: 1px rgba(120, 120, 120, 0.2) solid;
+box-shadow: 0px 0px 1px rgba(120, 120, 120, 0.5);
+}
+
+
+footer
+{
+
+background-color: rgb(120, 120, 120)
+margin-top: auto;
+}
