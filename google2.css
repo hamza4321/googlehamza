@@ -16,7 +16,7 @@ body
 
 body > header,
 body > footer  {
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 body > section
